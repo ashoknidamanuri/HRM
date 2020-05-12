@@ -3,13 +3,12 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Testcases.Workshift_Test">
+      <class name="Testcases.OrganizationPgae_Test">
         <methods>
           <include name="setup"/>
-          <include name="quit"/>
-          <include name="workshiftDetails"/>
+          <include name="OrganizationDetails" invocation-numbers="0"/>
         </methods>
-      </class> <!-- Testcases.Workshift_Test -->
+      </class> <!-- Testcases.OrganizationPgae_Test -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

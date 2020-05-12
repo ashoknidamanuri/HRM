@@ -1,160 +1,67 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="HRM Application Test Automation Test Suite" duration-ms="192435" started-at="2020-05-08T11:58:21Z" finished-at="2020-05-08T12:01:34Z">
+  <suite name="Default suite" duration-ms="41334" started-at="2020-05-11T07:41:33Z" finished-at="2020-05-11T07:42:15Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="192435" started-at="2020-05-08T11:58:21Z" finished-at="2020-05-08T12:01:34Z">
-      <class name="Testcases.JobPage_Test">
-        <test-method status="PASS" signature="setup()[pri:0, instance:Testcases.JobPage_Test@3ad83a66]" name="setup" is-config="true" duration-ms="21086" started-at="2020-05-08T12:00:06Z" finished-at="2020-05-08T12:00:27Z">
+    <test name="Default test" duration-ms="41334" started-at="2020-05-11T07:41:33Z" finished-at="2020-05-11T07:42:15Z">
+      <class name="Testcases.OrganizationPgae_Test">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Testcases.OrganizationPgae_Test@2f686d1f]" name="setup" is-config="true" duration-ms="17586" started-at="2020-05-11T07:41:33Z" finished-at="2020-05-11T07:41:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="JobPageDetails(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Testcases.JobPage_Test@3ad83a66]" name="JobPageDetails" duration-ms="25438" started-at="2020-05-08T12:00:27Z" data-provider="readexcel" finished-at="2020-05-08T12:00:52Z">
+        <test-method status="PASS" signature="OrganizationDetails(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Testcases.OrganizationPgae_Test@2f686d1f]" name="OrganizationDetails" duration-ms="21627" started-at="2020-05-11T07:41:52Z" data-provider="readexcel" finished-at="2020-05-11T07:42:14Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Test Engineer]]>
+                <![CDATA[Unic Sol India Pvt Ltd.]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[I am having 2.7 years of experience in Manual Testing.]]>
+                <![CDATA[123561]]>
               </value>
             </param>
             <param index="2">
               <value>
-                <![CDATA[
-Adept in Manual testing - performing various types of testing such as Functional Testing.]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- JobPageDetails -->
-        <test-method status="PASS" signature="quit()[pri:0, instance:Testcases.JobPage_Test@3ad83a66]" name="quit" is-config="true" duration-ms="1246" started-at="2020-05-08T12:00:52Z" finished-at="2020-05-08T12:00:54Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- quit -->
-      </class> <!-- Testcases.JobPage_Test -->
-      <class name="Testcases.Workshift_Test">
-        <test-method status="PASS" signature="setup()[pri:0, instance:Testcases.Workshift_Test@3cce5371]" name="setup" is-config="true" duration-ms="24277" started-at="2020-05-08T12:00:54Z" finished-at="2020-05-08T12:01:18Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="workshiftDetails(java.lang.String)[pri:0, instance:Testcases.Workshift_Test@3cce5371]" name="workshiftDetails" duration-ms="14790" started-at="2020-05-08T12:01:18Z" data-provider="readexcel" finished-at="2020-05-08T12:01:33Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Night shift]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- workshiftDetails -->
-        <test-method status="PASS" signature="quit()[pri:0, instance:Testcases.Workshift_Test@3cce5371]" name="quit" is-config="true" duration-ms="921" started-at="2020-05-08T12:01:33Z" finished-at="2020-05-08T12:01:34Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- quit -->
-      </class> <!-- Testcases.Workshift_Test -->
-      <class name="Testcases.AdminPage_Test">
-        <test-method status="PASS" signature="setup()[pri:0, instance:Testcases.AdminPage_Test@5745ca0e]" name="setup" is-config="true" duration-ms="20567" started-at="2020-05-08T11:58:34Z" finished-at="2020-05-08T11:58:54Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="AdminDetails(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Testcases.AdminPage_Test@5745ca0e]" name="AdminDetails" duration-ms="21519" started-at="2020-05-08T11:58:54Z" data-provider="readexcel" finished-at="2020-05-08T11:59:16Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[ESS]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[John Smith]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[haribabun]]>
+                <![CDATA[A23458]]>
               </value>
             </param>
             <param index="3">
               <value>
-                <![CDATA[Enabled]]>
+                <![CDATA[9396252068]]>
               </value>
             </param>
             <param index="4">
               <value>
-                <![CDATA[Ashok@21345]]>
+                <![CDATA[Hyderabad]]>
               </value>
             </param>
             <param index="5">
               <value>
-                <![CDATA[Ashok@21345]]>
+                <![CDATA[Telengana]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[523240]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[India]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- AdminDetails -->
-        <test-method status="PASS" signature="quit()[pri:0, instance:Testcases.AdminPage_Test@5745ca0e]" name="quit" is-config="true" duration-ms="885" started-at="2020-05-08T11:59:16Z" finished-at="2020-05-08T11:59:17Z">
+        </test-method> <!-- OrganizationDetails -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Testcases.OrganizationPgae_Test@2f686d1f]" name="tearDown" is-config="true" duration-ms="930" started-at="2020-05-11T07:42:14Z" finished-at="2020-05-11T07:42:15Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- quit -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:Testcases.AdminPage_Test@5745ca0e]" name="setup" is-config="true" duration-ms="25406" started-at="2020-05-08T11:59:17Z" finished-at="2020-05-08T11:59:42Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="AdminDetails(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Testcases.AdminPage_Test@5745ca0e]" name="AdminDetails" duration-ms="22977" started-at="2020-05-08T11:59:42Z" data-provider="readexcel" finished-at="2020-05-08T12:00:05Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Admin]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Thomas Fleming]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[vamsiKrishna]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[Enabled]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[Vamsik@2134]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[Vamsik@2134]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AdminDetails -->
-        <test-method status="PASS" signature="quit()[pri:0, instance:Testcases.AdminPage_Test@5745ca0e]" name="quit" is-config="true" duration-ms="880" started-at="2020-05-08T12:00:05Z" finished-at="2020-05-08T12:00:06Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- quit -->
-      </class> <!-- Testcases.AdminPage_Test -->
-      <class name="Testcases.LoginPage_Test">
-        <test-method status="PASS" signature="LoginTest()[pri:0, instance:Testcases.LoginPage_Test@5f8e8a9d]" name="LoginTest" duration-ms="10604" started-at="2020-05-08T11:58:21Z" finished-at="2020-05-08T11:58:32Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- LoginTest -->
-      </class> <!-- Testcases.LoginPage_Test -->
-    </test> <!-- Test -->
-  </suite> <!-- HRM Application Test Automation Test Suite -->
+        </test-method> <!-- tearDown -->
+      </class> <!-- Testcases.OrganizationPgae_Test -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
